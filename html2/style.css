@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+.navBar{
+    background-color: #1a1a1a;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.navContainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.logo{
+    width: 65px;
+    height: 60px;
+    margin-right: 70px;
+}
+.navContainer a{
+    text-decoration: none;
+    color: white;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+.user{
+    width: 25px;
+    margin-left: 70px;
+}
+.mainPic img{
+    width: 100%;
+}
+.subPic{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.subPic img{
+    width: 25%;
+    transition: transform .7s ease;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+.subPic img:hover{
+    transform: scale(1.1);
+}
+.details{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-size: 18px;
+    line-height: 78px;
+    color: #000;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.cCare img{
+    width: 20px;
+    margin-right: 10px;
+}
+.cCare{
+    display: block;  
+
+}
+.detailsContent1{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+}
+.detailsContent2{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.detailsContent3{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.small{
+    color: rgb(152, 151, 150);
+    line-height: 15px;
+
+}
+.contactDetails{
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+}
+
+.socialMediaImg img{
+    width: 20px;
+    margin-right: 10px;
+}
+.policies{
+    border-top: 2px solid rgb(152, 151, 150);
+    margin-right: 21%;
+    margin-left: 8%;
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(152, 151, 150);
+}
+.wP{
+    display: flex;
+}
+.warrantyPolicies{
+    margin-right: 40px;
+    color: rgb(152, 151, 150);
+}
+.footer{
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 25px;
+}
